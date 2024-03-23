@@ -1,0 +1,80 @@
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+        color: #00ffff; /* Start color of the animation */
+    }
+    50% {
+        transform: scale(1.1);
+        color: #00ffff; /* Mid color of the animation */
+    }
+    100% {
+        transform: scale(1);
+        color: #00ffff; /* End color of the animation */
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Change the font to Arial */
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(42, 135, 157, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: #FF6347;
+}
+
+.custom-font {
+    font-family: 'Arial', sans-serif; /* Change the font to Arial */
+}
+
+div.container-login {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    position: relative; /* Position relative for the ::after pseudo-element */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FF6347;
+    overflow: hidden; /* Hide overflow for the border */
+}
+
+.navbar-nav a {
+    color: #FF6347;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #00ffff; /* Cyan color on hover */
+}
+
+.btn-login {
+    animation: scaleAnimation 0.5s ease-in-out;
+}
+
+.navbar {
+    background-color: #1E3D58; /* Dark blue background for the navbar */
+}
+
+/* Add this CSS to change the color of "Email address" and "Password" labels */
+.form-label {
+    color: #FF6347; /* Color for the labels */
+}
+
+/* Add this CSS to change the color of "Don't have an account?" text and "Log in" button */
+.link {
+    color: #FF6347; /* Color for the "Don't have an account?" text */
+}
+
+#loginBtn {
+    color: #FF6347; /* Color for the "Log in" button text */
+    border-color: #FF6347; /* Border color for the "Log in" button */
+    background-color: #1E3D58;
+    border-radius: 10px;
+}
+
+#loginBtn:hover {
+    background-color: #FF6347; /* Background color for the "Log in" button on hover */
+    color: #fff; /* Text color for the "Log in" button on hover */
+}
+
+/* Add this CSS to change the border color of the email and password input fields */
+.form-control {
+    border-color: #1E3D58; /* Border color for the input fields */
+    border-radius: 10px;
+}

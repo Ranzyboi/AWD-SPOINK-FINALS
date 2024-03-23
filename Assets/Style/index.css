@@ -1,0 +1,147 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(42,135,157,1) 100%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+
+.navbar {
+    background-color: #1E3D58; /* Dark blue background for the navbar */
+}
+
+.navbar-brand {
+    color: #FF6347; /* Light blue for navbar brand */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White color for nav links */
+    font-size: 1.2rem; /* Larger font size */
+    margin-right: 15px; /* Space between nav links */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Bold font for active nav link */
+}
+
+.navbar-toggler-icon {
+    background-color: #FF6347; /* White color for the navbar toggler icon */
+}
+
+.navbar-nav .view-link {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .view-link:hover {
+    color: #00D4FF; /* Light blue color on hover */
+}
+
+.wc-message {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Dark gray text shadow */
+}
+
+.wc-message p {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Dark gray text shadow */
+}
+
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-background {
+    background-color: #3a3a3a; /* Dark gray background color for the cards */
+    border-radius: 20px; /* Increase border radius */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Improved box shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 40px; /* Increase padding for a larger card size */
+    
+}
+
+.card-background:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced box shadow on hover */
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF6347; /* Tomato color for card titles */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Dark gray text shadow */
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #ffffff; /* Dark gray color for card text */
+}
+
+
+.btn-light {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 10px 24px; /* Adjusted button padding */
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+.btn-light:hover {
+    background-color: #0096C7; /* Darker blue on hover */
+}
+/* Add this CSS to change the color of "Welcome to BookCinema!" */
+.wc-message p:first-child {
+    color: #FF6347; /* Light blue color */
+}
+
+/* Additional CSS for styling the "Select a room" text */
+.wc-message p:last-child {
+    color: #FF6347; /* White color */
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.navbar-brand text-info custom-font fs-3{
+    color: #000000;
+}
+
+
+
+.card-background:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced box shadow on hover */
+}
+
+.card-title {
+    font-size: 1.8rem; /* Increase font size for card titles */
+}
+
+.card-text {
+    font-size: 1.3rem; /* Increase font size for card text */
+}
+
+.btn-light {
+    padding: 15px 30px; /* Adjust button padding */
+    font-size: 1.0rem; /* Increase button font size */
+}

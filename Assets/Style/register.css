@@ -1,0 +1,56 @@
+
+
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(42,135,157,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#emailinput::placeholder {
+    color:rgb(160, 160, 160);
+}
+
+.custom-font {
+    font-family: Montserrat;
+}
+
+div.container-register {
+    margin-top: 12%;
+}
+
+.navbar-nav a:hover {
+    color: cyan !important;
+}
+
+.navbar {
+    background-color: #1E3D58; /* Dark blue background for the navbar */
+}
+
+.form-label{
+    color: #FF6347;
+}
+.button {
+    color: #FF6347; /* Color for the "Log in" button text */
+    border-color: #FF6347; /* Border color for the "Log in" button */
+    background-color: #1E3D58;
+    border-radius: 10px;
+
+}
+
+.button {
+    color: #FF6347; /* Color for the "Log in" button text */
+    border-color: #FF6347; /* Border color for the "Log in" button */
+    background-color: #1E3D58;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow box */
+}
+
+div.container-login {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    position: relative; /* Position relative for the ::after pseudo-element */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FF6347;
+    overflow: hidden; /* Hide overflow for the border */
+    width: auto;
+}

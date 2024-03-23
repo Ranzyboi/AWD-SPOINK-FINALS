@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CinemaRoom | Profile</title>
+    <!--Bootstrap CSS Link-->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+        crossorigin="anonymous"
+    >
+
+    <!--Profile CSS Link-->
+    <link rel="stylesheet" href="./Assets/Style/profile.css">
+
+    <!--Font Import-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!--JQuery Link-->
+    <script
+        src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous">
+    </script>
+
+    <!--JavaScripts-->
+    <script src="./Assets/JS/profile.js" defer></script>
+    <script src="./Assets/JS/reservations.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid">
+            <a class="navbar-brand text-info custom-font fs-3" href="index.html">BookCinema</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a id="viewRoomLink" class="text-white nav-link active fs-5 custom-font" aria-current="index.html" href="index.html">View Rooms</a>
+                    <a id="signInLink" class="text-white nav-link fs-5 custom-font" href="login.html">Sign in</a>
+                    <a id="viewProfileLink" class="text-white nav-link fs-5 custom-font d-none" href="profile.html">About Page</a>
+                    <a id="logoutBtn" class="text-white nav-link fs-5 custom-font d-none" href="login.html">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="link2 custom-font-header profile-title">Company Background</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+                <div class="search-bar align-self-center">
+                    <form class="d-inline-flex">
+                        <input class="form-control form-control-m me-2" type="search" placeholder="Search a profile" aria-label="Search">
+                        <button class="btn btn-outline-light searchBtn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="border hr-title mx-auto">
+
+    <div class="profile-container row container text-black border border-white rounded bg-info-subtle mx-auto">
+        <div class="row justify-content-center mx-auto">
+            <div class="picture-container col-lg-3 text-center my-4">
+                <img src="https://media.tenor.com/sUUB6XtgOnoAAAAj/grumpig-pig.gif" alt="Profile Picture" class="img">
+            </div>
+
+            <div class="col-lg-9 mx-0">
+                <div class="container-fluid p-3 rounded">
+                    <h2 class="mt-1 fs-1">Book Cinema</h2>
+                    <p class="fs-4">SUMMARY</p>
+
+                    <textarea id="profileDescription" class="form-control form-control-m d-none"></textarea>
+
+                    <div class="description p-3 rounded border border-black bg-success-subtle" id="description">
+                        <p class="fs-5">Welcome to CinemaRoom! Easily check seat availability based on your preferred date and time. Occupied seats are marked red, while available seats are ready to be booked. Experience seamless cinema room booking from your device, with state-of-the-art technology and exceptional customer service. Our platform caters not only to movie enthusiasts but also to live performances, catering to all your music and entertainment needs. Enjoy the most modern concert-room-watching experience with CinemaRoom - your perfect seat is just a click away!
+                        </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-fluid mt-3">
+        <input class="d-none" id="uploadPictureInput" type="file">
+        <button class="btn btn-success d-none mx-2 col float-end btn-save-changes">Save Changes</button>
+        <button class="btn btn-primary d-none mx-2 col float-end btn-edit-picture">Edit Profile Picture</button>
+        <button class="btn btn-primary d-none mx-2 col float-end btn-edit-description">Edit Description</button>
+        <button class="btn btn-success d-none mx-2 col float-end btn-save-description">Save Description</button>
+        <button class="btn btn-success d-none mx-2 col float-end btn-save-picture">Save Picture</button>
+    </div> <br><br><br>
+
+    <div class="container">
+        <h3 class="text-black fs-2">Members of Spoink group</h3>
+        <a href="John Jacob.html" class="btn">John Jacob</a>
+        <a href="Hans.html" class="btn">Hans</a>
+        <a href="John Ranz.html" class="btn">John Ranz</a>
+        <a href="john benison.html" class="btn">John benison</a>
+        <a href="alwynn.html" class="btn">Alwynn</a>
+    </div>
+
+    <hr class="border hr-title mx-auto">
+      
+
+</div>
+</body>
+</html>

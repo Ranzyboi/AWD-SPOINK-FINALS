@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BookCinema</title>
+    <!--Bootstrap CSS Link-->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+        crossorigin="anonymous"
+    >
+
+    <!--Index CSS Link-->
+    <link rel="stylesheet" href="./Assets/Style/index.css">
+
+    <!--Font Import-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!--JQuery Link-->
+    <script
+        src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous">
+    </script>
+
+    <!--JavaScripts-->
+    <script src="./Assets/JS/index.js" defer></script>  
+</head>
+<body>
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid">
+            <a class="navbar-brand text-info custom-font header fs-3" href="index.html">BookCinema</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a id="viewRoomLink" class="text-white nav-link active fs-5 custom-font" aria-current="index.html" href="index.html">View Rooms</a>
+                    <a id="signInLink" class="text-white nav-link fs-5 custom-font" href="login.html">Sign in</a>
+                    <a id="viewProfileLink" class="text-white nav-link fs-5 custom-font d-none" href="profile.html">About Page</a>
+                    <a id="logoutBtn" class="text-white nav-link fs-5 custom-font d-none" href="login.html">Log out</a>
+                    <p class="text-white custom-font fs-5 mt-1">|</p>
+                    <button id="studentViewLink" class="text-white nav-link fs-5 custom-font view-link mb-1">Customer's View</button>
+                    <button id="technicianViewLink" class="text-white nav-link fs-5 custom-font view-link mb-1">Technician's View</button>
+                    <button id="visitorViewLink" class="text-white nav-link fs-5 custom-font d-none view-link mb-1">Visitor's View</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wc-message container mx-auto">
+        <p class=".wc-message p:first-child">Welcome to BookCinema!</p>
+        <p class=".wc-message p:last-child">Select a room</p>
+    </div>
+
+
+    <div class="row cards-row mx-auto my-5">
+        <div class="col my-2">
+            <div class="card mx-auto card-background border-light" style="width: 22rem;">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/431777290_284932601305047_4443954815531411799_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFO2hePk4DatkektIfkaD_nieZVNzG-WgyJ5lU3Mb5aDKyj9eTNRDnmUG1KYods_7FfIUzB4S5j1pKf6JyGTd9l&_nc_ohc=0PBY5mScyUcAX-5a7f0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRWZAggZPGTJqzEi94Vqcb9u_QO8iIkSgDyKZMj4rb3rA&oe=6625D686" class="card-img-top">
+                <div class="card-body">
+                    <h5 class=" card-title">Cinema Room 1</h5>
+                    <p class=" card-text">This is Room number 1 of BookCinema. This room has a total of 48 seats. The seating arrangement is in squares, the left side and right side of a single 4-seat block are facing each other.</p>
+                    <a href="cl01.html" class="btn btn-light">View Room</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col my-2">
+                <div class="card mx-auto card-background border-light" style="width: 22rem;">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432026770_956645719305965_9075894907081087002_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFZeyS5UgNAzD07TTxS49nWC0nSwRrGaHMLSdLBGsZocwZRU2jsgDZpPkwbJFQEfe0C4eKCAldzNfPTJeBxxnpU&_nc_ohc=RlmNLodRjUQAX9S5ObR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSPdeQ1qcrz_-sk_Fojvvj2BfiH-GhJWvTxUcnsSlXIiw&oe=6625E7BE" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class=" card-title">Cinema Room 2</h5>
+                        <p class="  card-text">This is Room number 2 of BookCinema. It has a total of 48 seats. The seating arrangement in this laboratory has blocks of 6-seats where the upperside is facing the lowerside of the block.</p>
+                        <a href="cl02.html" class="btn btn-light">View Room</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="col my-2">
+            <div class="card mx-auto card-background border-light" style="width: 22rem;">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432120374_1103824777504667_4661526953146258172_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFfExQAsY7TlCTl-EvuvEIPCu5nljhYYsAK7meWOFhiwL8IQ0OCFsWp8KQRLvx_VvnKya1-tOMi7TylHuY8jS0q&_nc_ohc=Yv3H3i42lusAX-_Sqdh&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ29VgbXPC-hoSmqKIc6-G7aozC1waEwmrDnrwLdK2Fmw&oe=6625C617" class="card-img-top">
+                <div class="card-body">
+                    <h5 class=" card-title">Cinema Room 3</h5>
+                    <p class=" card-text">This is Room number 3 of BookCinema. This room has a total of 48 seats. The seating arrangement is similar to Room Cinema Room number 1 in squares, the left side and right side of a single 4-seat block are facing each other.</p>
+                    <a href="cl03.html" class="btn btn-light">View Room</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    
+</body>
+</html>

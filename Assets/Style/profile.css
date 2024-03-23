@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif; /* Change the font to Arial */
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(42,135,157,1) 100%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+
+.custom-font {
+    font-family: Arial, sans-serif; /* Change the font to Arial for elements with class custom-font */
+}
+
+div.container-profile {
+    margin-top: 12%;
+}
+
+.navbar-nav a:hover {
+    color: cyan !important;
+}
+
+hr.hr-title{
+    width: 90vw;
+}
+
+.custom-font-header {
+    font-family: Arial, sans-serif; /* Change the font to Arial for headers with class custom-font-header */
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+img.profile-pic {
+    height: 29vh;
+    min-width: 15vw;
+}
+
+/*my reservations css*/
+.custom-font-header {
+    font-family: Arial, sans-serif; /* Change the font to Arial for headers with class custom-font-header */
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.custom-font {
+    font-family: Arial, sans-serif; /* Change the font to Arial for elements with class custom-font */
+}
+
+.custom-font-content {
+    font-family: Arial, sans-serif; /* Change the font to Arial for elements with class custom-font-content */
+}
+
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(42,135,157,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+hr.hr-title{
+    width: 90vw;
+}
+
+hr.hr-reservations {
+    width: 80vw;
+}
+
+.navbar-nav a:hover {
+    color: cyan !important;
+}
+
+tr td {
+    font-family: 'Roboto', sans-serif;
+}
+
+.light-bold {
+    letter-spacing: 1px;
+}
+
+.navbar {
+    background-color: #1E3D58; /* Dark blue background for the navbar */
+}
+
+.btn {
+    background-color:#0096C7;;
+    color: white;
+    border-radius: 10px;
+    border-color:  #1E3D58;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transition for smoother hover effect */
+}
+
+.btn:hover {
+    background-color: #1E3D58; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.img {
+    height: 32vh;
+    min-width: 15vw;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    position: relative; /* Position relative for the ::after pseudo-element */
+}
+
+.link2{
+    color:  #FF6347;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Dark gray text shadow */
+}
